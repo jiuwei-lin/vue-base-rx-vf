@@ -1,20 +1,16 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-    <p>Use route params</p>
-    <p>{{ this.$route.params.user}}</p>
-    <p>Use Props</p>
-    <p>{{ this.user}}</p>
-  </div>
+  <v-container>
+    <v-layout text-center wrap>
+      <v-flex xs12>
+        <span class="title">This is an about page</span>
+        <v-img :src="require('@/assets/kfsyscc.png')" class contain height="200px"></v-img>
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>
 export default {
-  name: 'about',
-  props: {
-    user: {
-      type: String
-    }
-  }
+  name: 'about'
 };
 </script>

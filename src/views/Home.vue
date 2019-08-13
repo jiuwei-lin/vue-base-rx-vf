@@ -1,10 +1,10 @@
 <template>
   <!--HelloWorld /-->
-  <v-layout>
-    <router-link to="/demo">
-      <v-btn>Axios Demo</v-btn>
-    </router-link>
-  </v-layout>
+  <v-container>
+    <v-layout text-center wrap>
+      <v-flex xs12></v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>

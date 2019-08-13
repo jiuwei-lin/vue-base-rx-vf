@@ -3,8 +3,7 @@
  * for more information on routes, see the
  * official documentation https://router.vuejs.org/en/
  */
-export default [
-  {
+export default [{
     path: '/',
     name: 'home',
     view: 'Home'
@@ -15,7 +14,7 @@ export default [
     view: 'Demo'
   },
   {
-    path: '/about/:user',
+    path: '/about',
     name: 'about',
     view: 'About'
   }
